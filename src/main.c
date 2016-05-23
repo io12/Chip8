@@ -77,7 +77,7 @@ int main(int argc, char* argv[]) {
 	}
 	if (fread(b, 1, fsize, fp) != fsize) {
 		endwin();
-		fprintf(stderr, "Error eading file\n");
+		fprintf(stderr, "Error reading file\n");
 		return 1;
 	}
 	for(int i = 0; i < fsize; ++i)
